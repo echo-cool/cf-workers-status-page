@@ -41,10 +41,10 @@ monitors:
 
   - id: overleaf-echo-cool # unique identifier
     name: overleaf.echo.cool (ShareLaTeX Instance Hosted at echo.cool)
-    url: 'https://overleaf.echo.cool/' # URL to fetch
+    url: 'https://overleaf.echo.cool/login' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: git-echo-cool
@@ -56,10 +56,10 @@ monitors:
 
   - id: jenkins-echo-cool
     name: jenkins.echo.cool (Jenkins Instance Hosted at echo.cool)
-    url: 'https://jenkins.echo.cool/'
+    url: 'https://jenkins.echo.cool/login'
     method: GET
     expectStatus: 200
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: bdic-api-bj
