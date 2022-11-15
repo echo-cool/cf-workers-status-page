@@ -33,6 +33,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: echo-cool # unique identifier
+    name: echo.cool
+    description: 'Yuyang Wang"s Blog.' # default=empty
+    url: 'https://echo.cool/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: overleaf-echo-cool # unique identifier
     name: overleaf.echo.cool
     description: 'Overleaf Hosted on echo.cool' # default=empty
