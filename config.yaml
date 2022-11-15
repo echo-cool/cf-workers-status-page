@@ -39,7 +39,7 @@ monitors:
     url: 'https://overleaf.echo.cool/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: git-echo-cool
@@ -56,6 +56,7 @@ monitors:
     url: 'https://jenkins.echo.cool/'
     method: GET
     expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: bdic-api-bj
