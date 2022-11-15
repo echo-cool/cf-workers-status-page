@@ -76,7 +76,7 @@ monitors:
 
   - id: ucd-sisweb
     name: sisweb.ucd.ie
-    description: "UCD Student Information System"
+    description: "UCD Studnet Information System"
     url: 'https://sisweb.ucd.ie/'
     method: GET
     expectStatus: 200
