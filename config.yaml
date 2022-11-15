@@ -16,8 +16,7 @@ settings:
 
 monitors:
   - id: www-yuyangwang-org # unique identifier
-    name: www.yuyangwang.org
-    description: 'Yuyang Wang"s Site.' # default=empty
+    name: www.yuyangwang.org (Yuyang Wang's's Site.)
     url: 'https://www.yuyangwang.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -25,8 +24,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: yuyangwang-org # unique identifier
-    name: yuyangwang.org
-    description: 'Yuyang Wang"s Site.' # default=empty
+    name: yuyangwang.org (Yuyang Wang's's Site Alias.)
     url: 'https://yuyangwang.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -34,8 +32,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: echo-cool # unique identifier
-    name: echo.cool
-    description: 'Yuyang Wang"s Blog.' # default=empty
+    name: echo.cool (Yuyang Wang's Blog.)
     url: 'https://echo.cool/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -43,8 +40,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: overleaf-echo-cool # unique identifier
-    name: overleaf.echo.cool
-    description: 'Overleaf Hosted on echo.cool' # default=empty
+    name: overleaf.echo.cool (ShareLaTeX Instance Hosted at echo.cool)
     url: 'https://overleaf.echo.cool/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -52,16 +48,14 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: git-echo-cool
-    name: git.echo.cool
-    description: 'My Gitea Instance on echo.cool'
+    name: git.echo.cool (Gitea Instance Hosted at echo.cool)
     url: 'https://git.echo.cool/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: jenkins-echo-cool
-    name: jenkins.echo.cool
-    description: 'My Jenkins Instance on echo.cool'
+    name: jenkins.echo.cool (Jenkins Instance Hosted at echo.cool)
     url: 'https://jenkins.echo.cool/'
     method: GET
     expectStatus: 200
@@ -69,24 +63,21 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: bdic-api-bj
-    name: bjbdicapi.echo.cool
-    description: "BDIC API on echo.cool Beijing"
+    name: bjbdicapi.echo.cool (WeChat Mini-program We-BDIC API Django [Beijing])
     url: 'https://bjbdicapi.echo.cool/'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
   - id: bdic-api-remote
-    name: aliyunapi.echo.cool
-    description: "BDIC API on Aliyun POST"
+    name: aliyunapi.echo.cool (WeChat Mini-program We-BDIC API Cloud Function [France])
     url: 'http://aliyunapi.echo.cool/'
     method: POST
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
   - id: ucd-sisweb
-    name: sisweb.ucd.ie
-    description: "UCD Studnet Information System"
+    name: sisweb.ucd.ie (We-BDIC - UCD Student Information System)
     url: 'https://sisweb.ucd.ie/'
     method: GET
     expectStatus: 200
