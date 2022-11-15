@@ -78,7 +78,7 @@ monitors:
 
   - id: ucd-sisweb
     name: sisweb.ucd.ie (We-BDIC - UCD Student Information System)
-    url: 'https://sisweb.ucd.ie/'
+    url: 'https://hub.ucd.ie'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
