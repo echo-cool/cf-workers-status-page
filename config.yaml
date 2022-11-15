@@ -15,25 +15,61 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier 
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: www-yuyangwang-org # unique identifier
+    name: www.yuyangwang.org
+    description: 'Yuyang Wang"s Site.' # default=empty
+    url: 'https://www.yuyangwang.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: yuyangwang-org # unique identifier
+    name: yuyangwang.org
+    description: 'Yuyang Wang"s Site.' # default=empty
+    url: 'https://yuyangwang.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: overleaf-echo-cool # unique identifier
+    name: overleaf.echo.cool
+    description: 'Overleaf Hosted on echo.cool' # default=empty
+    url: 'https://overleaf.echo.cool/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: git-echo-cool
+    name: git.echo.cool
+    description: 'My Gitea Instance on echo.cool'
+    url: 'https://git.echo.cool/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: jenkins-echo-cool
+    name: jenkins.echo.cool
+    description: 'My Jenkins Instance on echo.cool'
+    url: 'https://jenkins.echo.cool/'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: bdic-api-bj
+    name: bjbdicapi.echo.cool
+    description: "BDIC API on echo.cool Beijing"
+    url: 'https://bjbdicapi.echo.cool/'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
+  - id: bdic-api-remote
+    name: bjbdicapi.echo.cool
+    description: "BDIC API on Aliyun POST"
+    url: 'http://aliyunapi.echo.cool/'
+    method: POST
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
