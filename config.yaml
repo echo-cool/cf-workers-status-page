@@ -73,3 +73,11 @@ monitors:
     method: POST
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
+
+  - id: ucd-sisweb
+    name: sisweb.ucd.ie
+    description: "UCD Student Information System"
+    url: 'https://sisweb.ucd.ie/'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
