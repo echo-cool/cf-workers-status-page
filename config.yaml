@@ -68,7 +68,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: bdic-api-remote
-    name: bjbdicapi.echo.cool
+    name: aliyunapi.echo.cool
     description: "BDIC API on Aliyun POST"
     url: 'http://aliyunapi.echo.cool/'
     method: POST
