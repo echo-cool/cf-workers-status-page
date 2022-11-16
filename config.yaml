@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: www-yuyangwang-org # unique identifier
-    name: www.yuyangwang.org (Yuyang Wang's's Site.)
+    name: www.yuyangwang.org (Yuyang Wang's Site.)
     url: 'https://www.yuyangwang.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -24,7 +24,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: yuyangwang-org # unique identifier
-    name: yuyangwang.org (Yuyang Wang's's Site Alias.)
+    name: yuyangwang.org (Yuyang Wang's Site Alias.)
     url: 'https://yuyangwang.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -62,6 +62,13 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: pm3-echo-cool
+    name: pm3.echo.cool (Proxmark3 Blog)
+    url: 'https://pm3.echo.cool/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
   - id: bdic-api-bj
     name: bjbdicapi.echo.cool (WeChat Mini-program We-BDIC API Django [Beijing])
     url: 'https://bjbdicapi.echo.cool/'
@@ -82,3 +89,5 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
+
+
