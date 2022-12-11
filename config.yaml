@@ -54,13 +54,13 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: jenkins-echo-cool
-    name: jenkins.echo.cool (Jenkins Instance Hosted at echo.cool)
-    url: 'https://jenkins.echo.cool/login'
-    method: GET
-    expectStatus: 200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+#  - id: jenkins-echo-cool
+#    name: jenkins.echo.cool (Jenkins Instance Hosted at echo.cool)
+#    url: 'https://jenkins.echo.cool/login'
+#    method: GET
+#    expectStatus: 200
+#    followRedirect: false # should fetch follow redirects, default=false
+#    linkable: true # allows the title to be a link, default=true
 
   - id: pm3-echo-cool
     name: pm3.echo.cool (Proxmark3 Blog)
