@@ -31,6 +31,46 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: oauth-yuyangwang-org # unique identifier
+    name: OAuth Center
+    url: 'https://oauth.yuyangwang.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+  
+  - id: comp3030j-yuyangwang-org # unique identifier
+    name: COMP3030J
+    url: 'http://comp3030j.demo.yuyangwang.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+  
+  - id: comp3032j-yuyangwang-org # unique identifier
+    name: COMP3032J
+    url: 'http://comp3032j.demo.yuyangwang.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: comp3019j-yuyangwang-org # unique identifier
+    name: COMP3019J
+    url: 'http://comp3019j.demo.yuyangwang.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: bdic3025j-yuyangwang-org # unique identifier
+    name: BDIC3025J
+    url: 'http://bdic3025j.demo.yuyangwang.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: echo-cool # unique identifier
     name: echo.cool (Yuyang Wang's Blog.)
     url: 'https://echo.cool/' # URL to fetch
