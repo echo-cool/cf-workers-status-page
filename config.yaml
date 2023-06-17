@@ -63,6 +63,7 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+
   - id: bdic3025j-yuyangwang-org # unique identifier
     name: BDIC3025J
     url: 'http://bdic3025j.demo.yuyangwang.org/' # URL to fetch
